@@ -19,7 +19,7 @@ function App() {
         <CardProjects
           projectName={"POKEDEX"}
           projectDesc={
-            "Uma pequena descrição do projeto para apresentar sobre o que foi feito e as tecnologias utilizadas, tudo que foi aprendido"
+            "Um site criado para representar uma Pokédex, ou seja, listar todos os pokemons que são distribuidos por uma API. Criado com HTML5, CSS3, e JavaScript, com o intuito de estudar responsividade web (mobile first) e consumo de Rest API."
           }
           logoProject={logoPokedex}
           projectLink={"https://bis-pcg-pokedex.netlify.app/"}
@@ -28,16 +28,16 @@ function App() {
         <CardProjects
           projectName={"NOTAS"}
           projectDesc={
-            "Uma pequena descrição do projeto para apresentar sobre o que foi feito e as tecnologias utilizadas, tudo que foi aprendido"
+            "Um site criado para adicionar suas Notas, uma lista de afazeres separados por categoria. Criado com ReactJS, com o intuito de estudar o framework e salvamento no local storage do navegador."
           }
           logoProject={logoNotas}
           projectLink={"https://bis-pcg-notas.netlify.app/"}
           technologies={["React"]}
         ></CardProjects>
         <CardProjects
-          projectName={"ORÁCULO"}
+          projectName={"ORÁCULO APP"}
           projectDesc={
-            "Uma pequena descrição do projeto para apresentar sobre o que foi feito e as tecnologias utilizadas, tudo que foi aprendido"
+            "Um aplicativo criado para listar usuários de League of Legends, mostrando assim, suas partidas. Criado com React Native, com o intuito de estudar aplicações móveis e o consumo de REST API disponibilizada pela Riot Games."
           }
           logoProject={logoLOL}
           projectLink={
@@ -46,9 +46,9 @@ function App() {
           technologies={["React"]}
         ></CardProjects>
         <CardProjects
-          projectName={"IoT Generic Android APP "}
+          projectName={"IOT GENERIC ANDROID APP "}
           projectDesc={
-            "Uma pequena descrição do projeto para apresentar sobre o que foi feito e as tecnologias utilizadas, tudo que foi aprendido"
+            "Um aplicativo criado para controlar sistemas integrados com microcontroladores, utilizando uma conexão MQTT. Criado em Java para Android, com o intuito de estudar aplicações android nativo e conexão MQTT."
           }
           logoProject={logoIot}
           projectLink={"https://github.com/carlostrevisan1/iot-generic-control"}
