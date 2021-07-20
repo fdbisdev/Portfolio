@@ -1,0 +1,123 @@
+.apresentationContainer{
+  height: auto;
+  margin-top: 0px;
+}
+.imgContainer{
+  margin-top: 46px;
+}
+.personalContainer{
+  margin-top: 46px;
+  margin-left: 24px;
+  height: 209px;
+  width: 672px;
+}
+.profileImg{
+  width: 173px;
+  height: 208px;
+  left: 280px;
+  top: 46px;
+}
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: #E5E5E5;
+}
+.name{
+  width: auto;
+  height: 59px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 59px;
+  letter-spacing: 0.05em;
+  color: #2040AF;
+  font-family: 'Squada One', cursive;
+}
+.apresentation{
+  
+  width: 661px;
+  height: 121px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #535050;
+  font-family: 'Roboto', sans-serif;
+}
+.emailContainer{
+  width: 100%;
+}
+.email{
+  
+  width: 174px;
+  height: 24px;
+
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #535050;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.personalInfo{
+  display: inline-block;
+}
+
+.imgProfile{
+  
+  width: 173px;
+  height: 208px;
+  
+
+}
+.imgGit{
+  
+  width: 35px;
+  height: 35px;
+
+}
+.imgLink{
+  margin-left: 14px;
+  width: 35px;
+  height: 35px;
+}
+
+.desc{
+  
+  width: 383px;
+  height: 44px;
+
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.arrow{
+  width: 30px;
+  height: 30px;
+}
+.contact{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.socialMidia{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personal{
+  height: 180px;
+}
