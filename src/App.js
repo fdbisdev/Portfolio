@@ -19,7 +19,7 @@ function App() {
         <CardProjects
           projectName={"POKEDEX"}
           projectDesc={
-            "Um site criado para representar uma Pokédex, ou seja, listar todos os pokemons que são distribuidos por uma API. Criado com HTML5, CSS3, e JavaScript, com o intuito de estudar responsividade web (mobile first) e consumo de Rest API."
+            "Um site criado para representar uma Pokédex, ou seja, listar todos os pokemons que são distribuidos por uma API. Criado com HTML5, CSS3, e JavaScript, com o intuito de estudar responsividade web (mobile first) e consumo de REST API."
           }
           logoProject={logoPokedex}
           projectLink={"https://bis-pcg-pokedex.netlify.app/"}
