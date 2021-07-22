@@ -1,6 +1,6 @@
-#Pokedesk
+#Portifolio
 
-> Project made for Pecege Starter Pack Stage #1
+> Project created to present my others projects
 
 
 ## :computer: Technologies
