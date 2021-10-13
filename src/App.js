@@ -8,6 +8,7 @@ import logoPokedex from "./assets/img/logoProject.png";
 import logoNotas from "./assets/img/notas.png";
 import logoLOL from "./assets/img/lol.png";
 import logoIot from "./assets/img/Iot.png";
+import logoTMDB from './assets/img/tmdb.png'
 
 function App() {
   document.body.style = "background-color: #E5E5E5;";
@@ -53,6 +54,15 @@ function App() {
           logoProject={logoIot}
           projectLink={"https://github.com/carlostrevisan1/iot-generic-control"}
           technologies={["Java"]}
+        ></CardProjects>
+        <CardProjects
+          projectName={"TMDB MOVIE APP "}
+          projectDesc={
+            "Um aplicativo criado para listar os filmes que estão em cartaz nos cinemas. Criado com React Native utilizando TypeScript, e consumindo a REST API disponibilizada pelo The Movie Database."
+          }
+          logoProject={logoTMDB}
+          projectLink={"https://github.com/fdbisdev/desafio-mobile"}
+          technologies={["React"]}
         ></CardProjects>
       </ul>
     </div>

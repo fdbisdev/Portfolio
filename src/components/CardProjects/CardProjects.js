@@ -60,7 +60,7 @@ function CardProjects({
         </div>
       </div>
       <div className="arrowContainer">
-        <a href={projectLink}>
+        <a href={projectLink} target="_blank" rel="noreferrer">
           <img className="arrow" src={seta} alt="arrowLink"></img>
         </a>
       </div>
