@@ -9,6 +9,7 @@ import logoNotas from "./assets/img/notas.png";
 import logoLOL from "./assets/img/lol.png";
 import logoIot from "./assets/img/Iot.png";
 import logoTMDB from './assets/img/tmdb.png'
+import logoRealEstate from './assets/img/realEstate.png'
 
 function App() {
   document.body.style = "background-color: #E5E5E5;";
@@ -62,6 +63,15 @@ function App() {
           }
           logoProject={logoTMDB}
           projectLink={"https://github.com/fdbisdev/desafio-mobile"}
+          technologies={["React"]}
+        ></CardProjects>
+        <CardProjects
+          projectName={"REAL ESTATE APP "}
+          projectDesc={
+            "Um aplicativo criado para listar apartamentos e casas que estão a venda, exibindo detalhes e campo para busca. Criado com React Native utilizando TypeScript, e consumindo a REST API disponibilizada pela KeyCash."
+          }
+          logoProject={logoRealEstate}
+          projectLink={"https://github.com/fdbisdev/keycash-frontend-felipe-bis"}
           technologies={["React"]}
         ></CardProjects>
       </ul>
