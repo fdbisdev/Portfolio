@@ -1,6 +1,7 @@
 import "./style.css";
 
 import seta from "../../assets/img/seta.png";
+import setaDark from "../../assets/img/setaDark.png";
 import javaIcon from "../../assets/img/java.png";
 import javaScriptIcon from "../../assets/img/js.svg";
 import html5 from "../../assets/img/html.svg";
@@ -13,6 +14,7 @@ function CardProjects({
   projectLink,
   projectDesc,
   technologies,
+  isDarkMode,
 }) {
   const technologiesIcon = [
     {
@@ -61,7 +63,8 @@ function CardProjects({
       </div>
       <div className="arrowContainer">
         <a href={projectLink} target="_blank" rel="noreferrer">
-          <img className="arrow" src={seta} alt="arrowLink"></img>
+          {isDarkMode ? <img className="arrow" src={setaDark} alt="arrowLink"></img> 
+          : <img className="arrow" src={seta} alt="arrowLink"></img>}
         </a>
       </div>
     </li>
