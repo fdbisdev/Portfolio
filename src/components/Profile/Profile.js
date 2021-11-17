@@ -29,7 +29,7 @@ function Profile({ isDarkMode }) {
               <p className="apresentation">
                 Meu nome é Felipe Bis e sou desenvolvedor Mobile, com
                 conhecimentos de aplicações hibridas e nativas. Atualmente
-                cursando 7º semestre da graduação em engenharia da computação pelo
+                cursando 8º semestre da graduação em engenharia da computação pelo
                 Instituto Federal (IFSP).
               </p>
             </div>
