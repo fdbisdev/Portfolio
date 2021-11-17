@@ -12,7 +12,7 @@ import logoRealEstate from '../../assets/img/realEstate.png'
 
 function Home({ isDarkMode }){
     return (
-        <div className="App">
+    <div className="App">
       <Profile isDarkMode={isDarkMode}/>
       <img className="line" src={line} alt="Line"></img>
       <ul className="Lista">

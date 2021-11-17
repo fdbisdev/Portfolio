@@ -11,8 +11,8 @@ function Profile({ isDarkMode }) {
     <>
       <div className="toggleThemeContent">
         <label for="check" className="switchThemeLabel">
-          <p className="switchThemeLabelText">🌚</p>
-          <p className="switchThemeLabelText">🌞</p>
+          <p className="switchThemeLabelText noselect">🌚</p>
+          <p className="switchThemeLabelText noselect">🌞</p>
           <span className="switchThemeBall"></span>
         </label>
       </div>

@@ -3,14 +3,42 @@
   --blueBlack: #4367e6;
   --bgWhite: #E5E5E5;
   --bgBlack: #1D1D1D;
-  --cardBlack: #262a2c;
+  --cardBlack: #2f3336;
   --cardWhite: #FFFEFE;
+  --txtBlack: #1D1D1D;
+  --txtWhite: #E5E5E5;
+  --txtEmailWhite: #9c9c9c;
   --bg: var(--bgWhite);
-  --txt: var(--bgBlack);
+  --txt: var(--txtBlack);
   --txtBlue: var(--blueWhite);
+  --txtEmail: var(--txtBlack);
   --bgCard: var(--cardWhite);
   --dark-opacity: 0;
   --light-opacity: 1;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.switchThemeCheckbox:checked + .home .toggleThemeContent .switchThemeLabel  .switchThemeBall{
+  transform: translate(1.8rem);
+}
+
+.switchThemeCheckbox:checked + .home {
+  --bgCard: var(--cardBlack);
+  --txt: var(--txtWhite);
+  --txtBlue: var(--blueBlack);
+  --txtEmail: var(--txtEmailWhite);
+  --dark-opacity: 1;
+  --light-opacity: 0;
+  --bg: var(--bgBlack);
 }
 
 .home{
@@ -22,6 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-right: 14px;
 }
 
 .switchThemeCheckbox{
@@ -36,25 +65,12 @@
   width: 1.5rem;
   background-color: var(--bg);
   border-radius: 50%;
-  transform: translate(0);
+  transform: translate(0.2rem);
   transition: transform 0.1s ease, background 0.1s ease;
 }
 
-.switchThemeCheckbox:checked + .home .toggleThemeContent .switchThemeLabel  .switchThemeBall{
-  transform: translate(2rem);
-}
-
-.switchThemeCheckbox:checked + .home {
-  --bgCard: var(--cardBlack);
-  --txt: var(--bgWhite);
-  --txtBlue: var(--blueBlack);
-  --dark-opacity: 1;
-  --light-opacity: 0;
-  --bg: var(--bgBlack);
-}
-
 .switchThemeLabel{
-  margin-top: 10px;
+  margin-top: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,22 +90,22 @@
   height: auto;
   margin-top: 0px;
 }
-.imgContainer{
-  margin-top: 46px;
-}
+
 .personalContainer{
-  margin-top: 46px;
   margin-left: 24px;
   height: 209px;
   width: 672px;
 }
+
 .profileImg{
   width: 173px;
   height: 208px;
   left: 280px;
   top: 46px;
 }
+
 .header{
+  margin-top: -46px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -97,7 +113,7 @@
 
 .name{
   width: auto;
-  height: 59px;
+  height: 60px;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -106,11 +122,10 @@
   color: var(--txtBlue);
   font-family: 'Squada One', cursive;
 }
+
 .apresentation{
-  
   width: 661px;
   height: 121px;
-  
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -121,21 +136,21 @@
   color: var(--txt);
   font-family: 'Roboto', sans-serif;
 }
+
 .emailContainer{
   width: 100%;
 }
+
 .email{
-  
   width: 174px;
   height: 24px;
-
   font-style: normal;
   font-size: 18px;
   line-height: 25px;
   display: flex;
   align-items: center;
   letter-spacing: 0.05em;
-  color: var(--txt);
+  color: var(--txtEmail);
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
@@ -144,17 +159,15 @@
 }
 
 .imgProfile{
-  
   width: 173px;
   height: 208px;
-  
-
 }
+
 .imgGit{
-  
   width: 35px;
   height: 35px;
 }
+
 .imgLink{
   margin-left: 14px;
   width: 35px;
@@ -162,21 +175,20 @@
 }
 
 .desc{
-  
   width: 383px;
   height: 44px;
-
-
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
 }
+
 .arrow{
   width: 30px;
   height: 30px;
 }
+
 .contact{
   width: 100%;
   display: flex;
@@ -184,11 +196,13 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .socialMidia{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .personal{
   height: 180px;
 }
