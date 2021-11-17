@@ -40,6 +40,7 @@ function CardProjects({
   ];
 
   return (
+    <a href={projectLink} target="_blank" rel="noreferrer">
     <li className="projectCard">
       <div className="card">
         <img src={logoProject} alt="cardProject"></img>
@@ -62,12 +63,12 @@ function CardProjects({
         </div>
       </div>
       <div className="arrowContainer">
-        <a href={projectLink} target="_blank" rel="noreferrer">
+        
           {isDarkMode ? <img className="arrow" src={setaDark} alt="arrowLink"></img> 
           : <img className="arrow" src={seta} alt="arrowLink"></img>}
-        </a>
       </div>
-    </li>
+      </li>
+      </a>
   );
 }
 

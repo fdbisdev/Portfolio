@@ -8,11 +8,17 @@
   --txtBlack: #1D1D1D;
   --txtWhite: #E5E5E5;
   --txtEmailWhite: #9c9c9c;
+  --shadowBlack: rgba(0, 0, 0, 0.25);
+  --shadowWhite: rgba(150, 150, 150, 0.25);
+  --shadowHoverWhite: rgba(150, 150, 150, 0.15);
+  --shadowHoverBlack: rgba(0, 0, 0, 0.15);
   --bg: var(--bgWhite);
   --txt: var(--txtBlack);
   --txtBlue: var(--blueWhite);
   --txtEmail: var(--txtBlack);
   --bgCard: var(--cardWhite);
+  --shadowHover: var(--shadowHoverBlack);
+  --shadow: var(--shadowBlack);
   --dark-opacity: 0;
   --light-opacity: 1;
 }
@@ -36,6 +42,8 @@
   --txt: var(--txtWhite);
   --txtBlue: var(--blueBlack);
   --txtEmail: var(--txtEmailWhite);
+  --shadow: var(--shadowWhite);
+  --shadowHover: var(--shadowHoverWhite);
   --dark-opacity: 1;
   --light-opacity: 0;
   --bg: var(--bgBlack);
@@ -66,7 +74,7 @@
   background-color: var(--bg);
   border-radius: 50%;
   transform: translate(0.2rem);
-  transition: transform 0.1s ease, background 0.1s ease;
+  transition: background 0.1s ease, transform 0.1s ease;
 }
 
 .switchThemeLabel{
