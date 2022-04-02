@@ -9,7 +9,7 @@ import logoLOL from "../../assets/img/lol.png";
 import logoIot from "../../assets/img/Iot.png";
 import logoTMDB from '../../assets/img/tmdb.png'
 import logoRealEstate from '../../assets/img/realEstate.png'
-import pokemonJS from '../../assets/img/pokemonJS.png'
+import pokemonJS from '../../assets/img/javascriptGame.png'
 
 function Home({ isDarkMode }){
     return (
