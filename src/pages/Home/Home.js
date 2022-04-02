@@ -9,6 +9,7 @@ import logoLOL from "../../assets/img/lol.png";
 import logoIot from "../../assets/img/Iot.png";
 import logoTMDB from '../../assets/img/tmdb.png'
 import logoRealEstate from '../../assets/img/realEstate.png'
+import pokemonJS from '../../assets/img/pokemonJS.png'
 
 function Home({ isDarkMode }){
     return (
@@ -78,6 +79,17 @@ function Home({ isDarkMode }){
           projectLink={"https://github.com/fdbisdev/keycash-frontend-felipe-bis"}
           technologies={["React"]}
         ></CardProjects>
+        <CardProjects
+          isDarkMode={isDarkMode}
+          projectName={"Javascript Game"}
+          projectDesc={
+            "Um jogo criado com HTML, Javascript, CSS3 e canvas, para simular um jogo de batalha entre dois personagens, no estilo Pokemon. Criado com o intuito de estudar a utilização de canvas e javascript."
+          }
+          logoProject={pokemonJS}
+          projectLink={"https://fdbisdev-pokemon-js.vercel.app/"}
+          technologies={["JavaScript", "HTML5", "CSS3"]}
+        >
+        </CardProjects>
       </ul>
     </div>
     );
