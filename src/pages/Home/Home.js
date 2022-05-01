@@ -95,7 +95,7 @@ function Home({ isDarkMode }){
           isDarkMode={isDarkMode}
           projectName={"BOOKS APP"}
           projectDesc={
-            "Um aplicativo criado para listar livros e mostrar seus detalhes, podendo também buscar e filtrar. Criado com React Native utilizando TypeScript, e consumindo a REST API disponibilizada pela oiasys."
+            "Um aplicativo criado para listar livros e mostrar seus detalhes, podendo também buscar e filtrar. Criado com React Native utilizando TypeScript, e consumindo a REST API disponibilizada pela OIASYS."
           }
           logoProject={logoBooks}
           projectLink={"https://github.com/fdbisdev/ioasys-challange"}
