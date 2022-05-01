@@ -10,6 +10,7 @@ import logoIot from "../../assets/img/Iot.png";
 import logoTMDB from '../../assets/img/tmdb.png'
 import logoRealEstate from '../../assets/img/realEstate.png'
 import pokemonJS from '../../assets/img/javascriptGame.png'
+import logoBooks from '../../assets/img/books.png'
 
 function Home({ isDarkMode }){
     return (
@@ -90,6 +91,16 @@ function Home({ isDarkMode }){
           technologies={["JavaScript", "HTML5", "CSS3"]}
         >
         </CardProjects>
+        <CardProjects
+          isDarkMode={isDarkMode}
+          projectName={"BOOKS APP"}
+          projectDesc={
+            "Um aplicativo criado para listar livros e mostrar seus detalhes, podendo também buscar e filtrar. Criado com React Native utilizando TypeScript, e consumindo a REST API disponibilizada pela oiasys."
+          }
+          logoProject={logoBooks}
+          projectLink={"https://github.com/fdbisdev/ioasys-challange"}
+          technologies={["React"]}
+        ></CardProjects>
       </ul>
     </div>
     );
